@@ -8,10 +8,6 @@ fallidas = 0
 
 
 def ejecutar(numero, descripcion, operacion):
-    """
-    Ejecuta una operación de forma segura. Cualquier error se muestra,
-    se registra en el log y el programa CONTINÚA con la siguiente.
-    """
     # Permite modificar los contadores globales
     global exitosas, fallidas
     # Encabezado de la operación
@@ -40,7 +36,6 @@ def ejecutar(numero, descripcion, operacion):
 
 
 def main():
-    """Simula el funcionamiento completo del sistema."""
     # Crea el gestor que contiene las listas internas
     gestor = GestorSistema()
     # Diccionario para compartir objetos creados entre operaciones
