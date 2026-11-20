@@ -146,7 +146,8 @@ def main():
     log.info(f"===== Fin de la simulación: {exitosas} exitosas, {fallidas} fallidas =====")
 
 
-
+if __name__ == "__main__":
+    main()
 
 
 
