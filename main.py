@@ -146,9 +146,7 @@ def main():
     log.info(f"===== Fin de la simulación: {exitosas} exitosas, {fallidas} fallidas =====")
 
 
-# Ejecuta main() solo si el archivo se ejecuta directamente
-if __name__ == "__main__":
-    main()
+
 
 
 
